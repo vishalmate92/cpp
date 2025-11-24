@@ -1,0 +1,19 @@
+#include<iostream>
+
+using namespace std;
+
+int main() {
+    
+    //AND Opretor
+    int n;
+    cout<<"Enter N : ";
+    cin>>n;
+    
+    if(n%5==0 && n%3==0) {
+        cout<<"Divisible by 5 and 3";
+    }
+    else {
+        cout<<"Not Divisible by 5 and 3";
+    }
+}
+
